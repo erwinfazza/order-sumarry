@@ -4,7 +4,17 @@
 
 }
 
-body {
+@font-face {
+    font-family: 'redhat';
+    src: url(font/RedHatDisplay-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(font/RedHatDisplay-Regular.ttf);
+}
+
+n body {
     background: rgb(222, 233, 233) url(img/pattern-background-desktop.svg)no-repeat;
 }
 
@@ -33,12 +43,16 @@ body {
 h1 {
     text-align: center;
     margin-top: 30px;
+    font-family: 'redhat';
+    color: hsl(223, 47%, 23%);
 }
 
 .you {
     text-align: center;
     margin: 10px 30px;
     padding: 10px 30px;
+    font-family: 'regular';
+    color: hsl(223, 47%, 23%);
 }
 
 .text {
@@ -61,18 +75,23 @@ h1 {
 
 .name {
     margin-top: -20px;
+
 }
 
 h4 {
     margin: 20px 20px 10px;
+    font-family: 'redhat';
+    color: hsl(223, 47%, 23%)
 }
 
 .price {
     margin: 0 20px;
+    color: hsl(223, 47%, 23%)
 }
 
 .play {
     margin: 10px 30px;
+    font-family: 'regular';
 }
 
 li a:hover {
@@ -100,6 +119,7 @@ li a {
     background-color: hsl(245, 75%, 52%);
     color: white;
     border: none;
+    font-family: 'regular';
 }
 
 .pro:hover {
@@ -112,6 +132,7 @@ li a {
     color: hsl(223, 47%, 23%);
     border: none;
     background-color: white;
+    font-family: 'regular';
 }
 
 .cancel:hover {
